@@ -14,15 +14,15 @@ const Header = () => {
           <img src={logo} alt="" className="absolute w-[250px] h-20 " />
         </div>
         <div className="flex flex-col justify-center items-center text-white relative z-[100000] h-[700px] mx-auto max-w-[70%] md:max-w-[50%] ">
-          <h2 className="text-3xl lg:text-4xl font-bold md:leading-10 md:text-center">
+          <h2 className="text-4xl lg:text-5xl font-bold md:leading-10 md:text-center">
             Welcome to the Africa CDC Systems and Dashboards Access Page
           </h2>
-          <p className="text-lg my-4 md:text-center">
+          <p className="text-lg my-4 md:text-center font-semibold">
             A one stop center for finding systems and dashboards within Africa
             CDC
           </p>
         </div>
-        <img src={arrow} alt="" className="absolute bottom-[4rem] z-[9999999999] right-4 w-12 h-12 transform animate-bounce" />
+        <img src={arrow} alt="" className="absolute bottom-[8rem] z-[9999999999] right-4 w-12 h-12 transform animate-bounce" />
       </header>
       <div className="absolute top-0 left-0 bg-black w-full h-[100vh] z-[10000] !opacity-40 md:!opacity-30">
 
