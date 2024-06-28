@@ -18,6 +18,7 @@ const CardData = () => {
             key={item.id}
             data-aos="fade-up"
             target="_blank"
+            to={item.link}
             className=" flex flex-col items-center text-center justify-center w-[70%] px-6 md:px-8 m-auto md:w-[30%] h-[200px] md:h-[200px] max-h-[200px] lg:h-[150px] bg-white rounded-md shadow-xl shadow-[#fe8a150c] transition ease-in-out delay-150 hover:scale-110 duration-300 "
           >
             <div className="text-xl p-3 rounded-full ">
