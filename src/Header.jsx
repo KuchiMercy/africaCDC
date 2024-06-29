@@ -1,5 +1,5 @@
 import coverPhoto from "./assets/acdc.jpeg";
-import logo from "./assets/acdc2.png";
+import logo from "./assets/Logo.png";
 import arrow from "./assets/arrow.png"
 
 const Header = () => {
