@@ -11,7 +11,7 @@ const Header = () => {
       >
         <div className="flex justify-center md:block md:pl-6 bg-white w-full h-[4rem] absolute z-[100000]">
           {" "}
-          <img src={logo} alt="" className="absolute w-[250px] h-20 " />
+          <img src={logo} alt="" className="absolute w-[150px] h-16 " />
         </div>
         <div className="flex flex-col justify-center items-center text-white relative z-[100000] h-[700px] mx-auto max-w-[70%] md:max-w-[50%] ">
           <h2 className="text-4xl lg:text-5xl font-bold md:leading-10 md:text-center">
